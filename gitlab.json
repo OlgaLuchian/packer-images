@@ -14,8 +14,7 @@
         "owners": ["137112412989"], 
         "most_recent": true 
       }
-      
-      }],
+    }],
     "_comment1": "Comment here1",
     "provisioners": [
         {
@@ -26,7 +25,11 @@
         {
             "type": "shell",
             "inline":[
-                "sudo yum update -y"
+                "sudo yum update -y",
+                "sudo yum install epel-release -y",
+                "",
+                "",
+                ""
                
             ]
         }
